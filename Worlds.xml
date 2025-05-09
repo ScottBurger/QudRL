@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<worlds>
+  <world Name="MyWorld" ZoneFactory="MyWorldFactory" DisplayName="your personal world">
+    <cell Name="MyWorldCell">
+      <zone Level="10" x="1" y="1" Name="my joppa" IncludeStratumInZoneDisplay="true">
+        <map FileName="YdFreehold.rpm" />
+        <music Track="MehmetsMorning" />
+      </zone>
+    </cell>
+  </world>
+</worlds>

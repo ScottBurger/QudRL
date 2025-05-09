@@ -1,0 +1,9 @@
+{
+    "id": "PlaguesOfQud",
+    "title": "Plagues of Qud",
+    "description": "A shorter form roguelike mode for Qud",
+    "version": "0.1.0",
+    "author": "Grogpod",
+    "tags": "Creature",
+    "PreviewImage": "preview.png"
+}

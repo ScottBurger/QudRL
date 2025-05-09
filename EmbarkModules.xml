@@ -1,0 +1,92 @@
+
+<?xml version="1.0" encoding="utf-8" ?>
+<embarkmodules>
+  <module Class="XRL.CharacterBuilds.Qud.QudGamemodeModule" Load="Merge">
+    <modes Load="Merge">
+      <mode ID="Daily" Title="Plague">
+        <icon Tile="Items/sw_campfire.bmp" Foreground="w" Detail="R"></icon>
+        <description>
+            * Condensded classic roguelike experience
+        </description>
+        <stringgamestate Name="GameMode" Value="Daily"> </stringgamestate>
+      </mode>
+    </modes>
+  </module>
+</embarkmodules>
+
+
+<!--
+
+			<mode ID="Daily" Title="Daily" Editable="False">
+				<icon Tile="Items/sw_clockthing.bmp" Foreground="w" Detail="W"></icon>
+				<description>
+					{{c|&#249;}} One chance with a fixed character and world seed.
+					{{c|&#249;}} Currently in day {{W|{day_of_year}}} of {{W|{year}}}.
+				</description>
+				<stringgamestate Name="GameMode" Value="Daily"></stringgamestate>
+			</mode>
+
+
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<embarkmodules>
+    <module Class="XRL.CharacterBuilds.Qud.QudGamemodeModule" Load="Merge">
+        <modes Load="Merge">
+            <mode ID="KM_Hadassah_CrungleRRSJHM_CrungleMode" Title="Hero of Redrock!">  
+             <icon Tile="Creatures/CM_HeroSnapjaw.png" Foreground="Y" Detail="M"></icon>
+                <description>
+                Play Caves of Qud starting as the (snapjaw) Hero of Redrock.
+                </description>
+                <stringgamestate Name="GameMode" Value="RRSJH Mode!"></stringgamestate>
+            </mode>
+        </modes>
+    </module>
+
+    <module Class="XRL.CharacterBuilds.Qud.KM_Hadassah_CrungleRRSJHM_CrungleRRSJHMModule">
+        <window ID="Chargen/KM_Hadassah_CrungleRRSJHM_Gamemode" Prefab="HorizScroll" Class="KM_Hadassah.CrungleRRSJHM.UI.CrungleRRSJHMModuleWindow">
+            <title>:choose game mode:</title>
+            <name>Game Modes</name>
+        </window>
+        <modes>
+            <mode ID="Classic" Title="Classic">
+                <icon Tile="Creatures/class_gunslinger.bmp" Foreground="y" Detail="K"></icon>
+                <description>
+                    Permadeath: lose your character when you die.
+                </description>
+                <stringgamestate Name="GameMode" Value="Classic"></stringgamestate>
+            </mode>
+
+            <mode ID="Roleplay" Title="Roleplay">
+                <icon Tile="UI/sw_roleplay_mode.bmp" Foreground="b" Detail="B"></icon>
+                <description>
+                    Checkpointing at settlements.
+                </description>
+                <stringgamestate Name="GameMode" Value="Roleplay"></stringgamestate>
+                <stringgamestate Name="Checkpointing" Value="Enabled"></stringgamestate>
+            </mode>
+        </modes>
+    </module>
+
+    <module Class="XRL.CharacterBuilds.Qud.KM_Hadassah_CrungleRRSJHM_BiomeGameModule">
+        <window ID="Chargen/KM_Hadassah_CrungleRRSJHM_Biome" Prefab="HorizScroll" Class="XRL.CharacterBuilds.Qud.UI.KM_Hadassah_CrungleRRSJHM_BiomeModuleWindow">
+            <name>Biome</name>
+            <title>:choose creature biome:</title>
+        </window>
+
+        <biomes>
+        
+            
+            <biome Name="Redrock" Tile="terrain/tile_location7.bmp" Foreground="R" Detail="r">
+                <description>
+                    Start as the (snapjaw) Hero of Redrock, three layers deep.
+                </description>
+                <terrain Name="TerrainRedRock" />
+            </biome>
+        </biomes>
+    </module>
+</embarkmodules>
+
+
+
+-->
